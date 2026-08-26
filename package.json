@@ -1,0 +1,15 @@
+{
+  "name": "tai-sui-api",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Tai Sui API. Annual feng shui afflictions and annual flying stars for a solar year, with the Li Chun changeover date.",
+  "license": "MIT",
+  "dependencies": {
+    "@roxyapi/sdk": "^1.2.70"
+  },
+  "scripts": {
+    "ts": "bun example.ts",
+    "js": "node example.js"
+  }
+}
