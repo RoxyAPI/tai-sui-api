@@ -382,6 +382,8 @@ This repo ships an [AGENTS.md](AGENTS.md) execution playbook. Cursor, Claude Cod
 
 ## Other RoxyAPI samples
 
+[![Kua Number API](https://img.shields.io/badge/Kua_Number_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/kua-number-api)
+[![Flying Stars API](https://img.shields.io/badge/Flying_Stars_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/feng-shui-flying-stars-api)
 [![Transit Forecast API](https://img.shields.io/badge/Transit_Forecast_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/transit-forecast-api)
 [![Moon Phase API](https://img.shields.io/badge/Moon_Phase_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/moon-phase-api)
 [![Human Design API](https://img.shields.io/badge/Human_Design_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/human-design-api)
