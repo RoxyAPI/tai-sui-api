@@ -2,7 +2,7 @@
 
 # Tai Sui API
 
-> Tai Sui API for the annual feng shui afflictions of any solar year from 1900 to 2100. Tai Sui and Sui Po on their exact 15 degree mountains, San Sha across its 75 degree span, and the Five Yellow on the annual star plate, every position returned as structured fields rather than prose. Paired with the annual flying stars, the two calls rebuild a whole annual feng shui page. Both return the Li Chun changeover date, so the page flips on the right day. One key covers 14+ spiritual domains. MCP-first, nine languages beyond English including Simplified and Traditional Chinese.
+> Tai Sui API for the annual feng shui afflictions of any solar year from 1900 to 2100. Tai Sui and Sui Po on their exact 15 degree mountains, San Sha across its 75 degree span, and the Five Yellow on the annual star plate, every position returned as structured fields rather than prose. Paired with the annual flying stars, the two calls rebuild a whole annual feng shui page. Both return the Li Chun changeover date, so the page flips on the right day. One key covers 18+ spiritual domains. MCP-first, nine languages beyond English including Simplified and Traditional Chinese.
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
@@ -16,7 +16,7 @@ Tai Sui is the Grand Duke Jupiter, the annual star that occupies the mountain of
 
 This repo ships working TypeScript, JavaScript, and Python samples against two RoxyAPI feng shui endpoints. `GET /feng-shui/afflictions/{year}` returns the four annual afflictions for any solar year from 1900 to 2100, each with its compass sector, its exact 15 degree mountain, and the degree span it covers. `GET /feng-shui/flying-stars/annual/{year}` returns the annual flying stars for the same year, the nine palace plate that every yearly feng shui guide is built on. Together the two calls are the annual page a publisher rebuilds each year, and change one number in the path to move from tai sui 2027 to tai sui 2028.
 
-One subscription unlocks 14+ spiritual domains: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, numerology, tarot, biorhythm, I Ching, crystals, dreams, angel numbers, and location.
+One subscription unlocks 18+ spiritual domains: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, Mesoamerican astrology, Vastu, numerology, Kabbalah, tarot, biorhythm, Ayurveda, I Ching, crystals, dreams, angel numbers, and location.
 
 ### One date decides the whole page
 
@@ -30,7 +30,7 @@ An annual page that flips on 1 January serves the wrong sectors for five weeks e
 
 | Property | Value |
 |----------|-------|
-| Coverage | 14+ spiritual domains in one subscription |
+| Coverage | 18+ spiritual domains in one subscription |
 | Feng shui year | Turns at Li Chun in early February, returned as `changeoverDate` on both endpoints |
 | Positions | Compass sector, 24 mountain id and label, and start and end degrees as structured fields |
 | Languages | Nine beyond English: Turkish, German, Spanish, Hindi, Portuguese, French, Russian, Simplified Chinese, Traditional Chinese |
